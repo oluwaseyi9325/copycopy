@@ -1,0 +1,225 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#welMessage_1 {
+  color: #2036ae;
+  /* width: 504px; */
+  height: 180px;
+  font-family: "Nexa Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 60px;
+}
+
+#welMessage_2 {
+  /* width: 504px; */
+  height: 64px;
+  color: #404040;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 32px;
+}
+@media screen and (max-width: 780px) {
+  #welMessage_1 {
+    /* color: #2036ae; */
+    /* width: 354px; */
+    /* height: 95px; */
+    /* font-family: "Nexa Bold"; */
+    /* font-style: normal; */
+    /* font-weight: 700; */
+    /* font-size: 30px; */
+    /* line-height: 35px; */
+    /* margin-top: 70px; */
+  }
+  
+  #welMessage_2 {
+    /* width: 304px; */
+    /* height: 64px; */
+    /* color: #404040; */
+    /* font-family: "Inter"; */
+    /* font-style: normal; */
+    /* font-weight: 400; */
+    /* font-size: 15px; */
+    /* line-height: 20px; */
+    /* align-items: center; */
+  }
+
+  .btn-create {
+    background-color: #2036ae;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+  
+    /* identical to box height, or 150% */
+  
+    text-align: center;
+  
+    color: #ffffff;
+    margin-bottom: 30px;
+  }
+}
+
+.btn-create {
+  background-color: #2036ae;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+
+  /* identical to box height, or 150% */
+
+  text-align: center;
+
+  color: #ffffff;
+}
+.me {
+  background: linear-gradient(
+    90deg,
+    #f7f7f7 74.43%,
+    rgba(241, 241, 241, 0) 90.07%
+  );
+}
+
+@media screen and (max-width: 760px) {
+  #hideButtonStarted {
+    display: none;
+  }
+}
+
+.bannerBack {
+  background-image: url("../asset/banner.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 900px;
+  width: 900%;
+  background-position: 500px;
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+  /* position: relative; */
+}
+
+.signBack {
+  background-image: url("../asset/signBack.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media screen and (max-width: 800px) {
+  .signBack {
+    display: none;
+  }
+  .signBtn{
+    margin-top: -50px;
+  }
+}
+
+.bb {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.userHomeFill{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 300%;
+  background-color: #F3F3F3;
+}
+
+@media screen and (max-width: 750px) {
+  
+  .signBtn{
+    margin-top: -50px;
+  }
+  .signNav{
+    box-shadow: 3px 3px 3px 2px lightgray;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  
+  .dontHave{
+    display: none;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  
+  .signImgLog{
+    display: none;
+  }
+}
+
+.err404{  
+  font-size: 140px;
+  color:  #2036ae;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bolder;
+}
+@media screen and (max-width: 480px) {
+ 
+  .err404{
+   font-size: 50px; 
+  
+  }
+ }
+
+
+@media screen and (min-width: 780px) {
+     
+  .welImg{
+    background-image: url("../asset//Hero\ \(3\).png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 800px;
+    /* background-position: 500px; */
+  }
+
+ }
+
+ /* .bannerText{
+     padding-left: 90px;
+     padding-top: 50px !important;
+ }
+
+ @media screen and (max-width: 480px) {
+  .bannerText{
+    padding-left: 0px;
+    padding-top: 50px !important;
+}
+ } */
+
+ .userNavBtn{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  
+  
+  /* Gray 2 */
+  
+  color: #808080;
+ }
+
+ 
+
+

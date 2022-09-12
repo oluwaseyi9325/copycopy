@@ -1,0 +1,86 @@
+.sideBtn:hover{
+
+  background-color: lightgray !important;
+  color: #2036ae !important;
+
+}
+
+#listSideNar{
+  text-decoration: none;
+  color:white !important;
+}
+#textDeco{
+  text-decoration: none;
+  color:grey !important;
+}
+#textDeco:hover{
+  text-decoration: none;
+  color:#2036ae !important;
+}
+
+#listSideNar:hover{
+  text-decoration: none;
+  color:#2036ae !important;
+
+}
+
+
+#navText{
+  background-color: #2036ae;
+  color: white !important;
+}
+
+#MobileNavText{
+  color: #2036ae !important;
+  border-bottom: 3px solid #2036ae;
+}
+#navAs{
+  text-decoration: none;
+  color: black;
+}
+
+.paymentInput{
+  font-size: 20px;
+  font-weight: 400px;
+  border-radius: 10px;
+}
+
+.breadCrumb{
+  font-size: 20px;
+}
+
+@media screen and (max-width: 760px) {
+  .breadCrumb{
+    font-size: 13px;
+  }
+}
+
+.dropdown-toggle::after {
+  display: none;
+}
+
+@media screen and (max-width: 1085px) {
+  .navLine{
+    display: none;
+    padding-left: 5px;
+  }
+}
+
+.editIcon{
+   background-color:#ECECEC;
+   color: #2036AE;
+   border-radius: 15px;
+   padding: 3px 5px 3px 5px;
+}
+
+.editSavedBtn{
+    background-color: #2036AE;
+    color: white;
+    border-radius: 10px;
+}
+.editCancelBtn{
+  background-color:#DFDFDF;
+  color: black;
+  border-radius: 10px;
+}
+
