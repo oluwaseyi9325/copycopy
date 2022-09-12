@@ -2,7 +2,7 @@ import Image from "next/image";
 import React from "react";
 import SignLeftBanner from "./signLeftBanner";
 import Link from "next/link";
-import swal from "sweetalert";
+// import swal from "sweetalert";
 
 function userSignIn() {
   return (
